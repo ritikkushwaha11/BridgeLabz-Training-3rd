@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.hero{
+    background:linear-gradient(to right, orange, white, green);
+    height:40vh;
+}
+
+.history{
+    background:radial-gradient(circle, #ffe4b5, #ffb347);
+}
+
+.places{
+    background:url("tajmahal.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+}
+
+.food{
+    background:#fff3cd;
+}
+
+footer{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:15px;
+}

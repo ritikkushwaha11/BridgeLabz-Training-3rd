@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  background:#eef6ff;
+  color:#222;
+}
+
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#003366;
+  color:white;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  margin:10px;
+  text-decoration:none;
+}
+
+main{
+  margin-top:90px;
+  text-align:center;
+  padding:20px;
+}
+
+img{
+  width:40%;
+  max-width:180px;
+  border-radius:50%;
+}
+
+h1{ font-size:2rem; }
+p{ font-size:1.2em; }
+
+footer{
+  margin-top:auto;
+  background:#003366;
+  color:white;
+  text-align:center;
+  padding:15px;
+}

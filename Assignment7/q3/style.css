@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+}
+
+header, footer{
+  position:fixed;
+  width:100%;
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+
+header{ top:0; }
+footer{ bottom:0; }
+
+section{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+.linear{
+  background:linear-gradient(to right,#ff6a00,#ee0979);
+}
+
+.radial{
+  background:radial-gradient(circle,#00c6ff,#0072ff);
+  background-attachment:fixed;
+}

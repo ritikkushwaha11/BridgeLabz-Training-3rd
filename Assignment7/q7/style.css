@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  font-family:Georgia, serif;
+  background:#f8f8f8;
+}
+
+header,footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+
+article{
+  max-width:700px;
+  margin:auto;
+  padding:25px;
+}
+
+h2{
+  font-family:Verdana, sans-serif;
+  font-weight:bold;
+  font-size:30px;
+}
+
+.para{
+  font-size:18px;
+  line-height:1.8;
+  text-align:justify;
+}
+
+.center{
+  text-align:center;
+  letter-spacing:2px;
+  font-size:20px;
+}
+
+mark{
+  background:yellow;
+  color:black;
+}
+
+strong{
+  color:darkred;
+}
+
+em{
+  color:blue;
+}
+
+.para::first-letter{
+  font-size:36px;
+  color:red;
+  font-weight:bold;
+}
+
+.para::first-line{
+  color:green;
+}

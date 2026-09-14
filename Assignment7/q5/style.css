@@ -1,0 +1,48 @@
+/* Attribute Selector */
+input[type="text"]{
+  padding:10px;
+  border:2px solid blue;
+}
+
+/* Attribute Selector */
+a[href^="https"]{
+  color:green;
+}
+
+/* Pseudo Classes */
+input:focus{
+  border-color:red;
+  outline:none;
+}
+
+li:hover{
+  color:orange;
+}
+
+li:nth-child(2){
+  background:lightblue;
+}
+
+/* Pseudo Elements */
+h1::before{
+  content:"★ ";
+  color:gold;
+}
+
+h1::after{
+  content:" ★";
+  color:gold;
+}
+
+/* Combinators */
+.parent > p{
+  color:purple;
+}
+
+h2 + p{
+  font-weight:bold;
+}
+
+h2 ~ span{
+  color:red;
+}

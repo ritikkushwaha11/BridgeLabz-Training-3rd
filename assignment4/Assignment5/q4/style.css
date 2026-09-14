@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, serif;
+    background:#f5f5f5;
+    padding:30px;
+}
+
+article{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+.info{
+    color:gray;
+}
+
+p{
+    text-align:justify;
+    line-height:1.8;
+}
+
+p::first-letter{
+    font-size:35px;
+    color:darkblue;
+    font-weight:bold;
+}
+
+p::first-line{
+    color:darkgreen;
+    font-weight:bold;
+}
+
+mark{
+    background:yellow;
+    padding:3px;
+}
+
+blockquote{
+    border-left:5px solid blue;
+    padding-left:15px;
+    color:#444;
+    font-style:italic;
+}

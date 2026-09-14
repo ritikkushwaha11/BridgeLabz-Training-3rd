@@ -1,0 +1,23 @@
+body{
+    font-family:Georgia, serif;
+    margin:20px;
+}
+
+h1{
+    text-align:center;
+    column-span:all;
+}
+
+.newsimg{
+    width:250px;
+    float:left;
+    margin:10px 20px 10px 0;
+    border-radius:10px;
+}
+
+.article{
+    column-count:3;
+    column-gap:30px;
+    text-align:justify;
+    line-height:1.8;
+}

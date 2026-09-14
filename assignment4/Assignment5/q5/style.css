@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+    margin:0;
+    padding:30px;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+.pricing{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:230px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px gray;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.08);
+    background:#e6f7ff;
+}
+
+.popular{
+    border:3px solid blue;
+    background:#dff6ff;
+}
+
+button{
+    background:blue;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkblue;
+}

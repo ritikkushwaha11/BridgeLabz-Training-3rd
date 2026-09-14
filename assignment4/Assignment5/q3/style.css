@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+h1{
+    margin:30px;
+}
+
+.team{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:15px;
+    border:2px solid #ddd;
+    box-shadow:0 4px 10px gray;
+}
+
+.lead{
+    border:3px solid red;
+    background:#ffeaea;
+}
+
+@media(max-width:600px){
+    .team{
+        flex-direction:column;
+        align-items:center;
+    }
+}

@@ -1,0 +1,14 @@
+/* Question 1: Pseudo-Classes */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; text-align: center; }
+header, footer { padding: 20px; background: #1f2937; color: white; }
+.examples { display: flex; gap: 20px; justify-content: center; align-items: stretch; padding: 40px; flex-wrap: wrap; }
+.card { background: white; width: 220px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+a { color: #2563eb; font-weight: bold; }
+a:hover { color: #dc2626; }
+input { padding: 10px; width: 100%; border: 2px solid #ccc; }
+input:focus { border-color: #7c3aed; outline: none; background: #f3e8ff; }
+button { padding: 10px 18px; border: none; border-radius: 8px; background: #16a34a; color: white; cursor: pointer; }
+button:active { background: #166534; transform: scale(.95); }
+li { padding: 5px; list-style-position: inside; }
+li:nth-child(even) { background: #fde68a; }

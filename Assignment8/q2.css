@@ -1,0 +1,8 @@
+/* Question 2: CSS Tooltips */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2ff; }
+header, footer { text-align: center; padding: 20px; background: #312e81; color: white; }
+.tooltip-area { min-height: 70vh; display: flex; justify-content: center; align-items: center; gap: 35px; flex-wrap: wrap; }
+.tooltip { position: relative; padding: 14px 22px; background: white; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,.15); cursor: pointer; font-weight: bold; }
+.tip-text { position: absolute; left: 50%; bottom: 130%; transform: translateX(-50%); background: #111827; color: white; padding: 8px 10px; border-radius: 6px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity .3s ease-in-out; }
+.tooltip:hover .tip-text { opacity: 1; }

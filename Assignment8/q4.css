@@ -1,0 +1,22 @@
+/* Question 4: CSS Selectors */
+* { box-sizing: border-box; }
+/* Element selector */
+p { color: #334155; }
+/* Class selector */
+.highlight { background: #fef3c7; padding: 10px; }
+/* ID selector */
+#special { color: #b91c1c; font-weight: bold; }
+/* Attribute selector */
+a[href] { color: #2563eb; text-decoration: underline; }
+/* Child combinator */
+.parent > p { border-left: 4px solid #16a34a; padding-left: 10px; }
+/* Descendant combinator */
+.parent div p { background: #dcfce7; padding: 10px; }
+/* Adjacent sibling combinator */
+h3 + p { color: #7c3aed; }
+/* General sibling combinator */
+h3 ~ p { font-style: italic; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+header, footer { background: #1e293b; color: white; text-align: center; padding: 20px; }
+main { max-width: 850px; margin: auto; padding: 30px; }
+section { background: white; margin-bottom: 20px; padding: 25px; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,.1); }

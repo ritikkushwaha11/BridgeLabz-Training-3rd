@@ -1,0 +1,17 @@
+/* Question 10: Complete Mini UI */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #1e293b; }
+.site-header, .site-footer { background: #0f172a; color: white; text-align: center; padding: 20px; }
+.main-area { min-height: 75vh; display: flex; justify-content: center; align-items: center; padding: 35px 20px; }
+.card { width: 100%; max-width: 800px; background: white; border: 1px solid #e2e8f0; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,.12); padding: 25px; display: flex; gap: 30px; align-items: center; }
+.image-area { flex: 1; }
+.image-area img { width: 100%; border-radius: 12px; display: block; }
+form { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+input, textarea { width: 100%; padding: 11px; border: 1px solid #cbd5e1; border-radius: 7px; }
+input:focus, textarea:focus { outline: 2px solid #3b82f6; border-color: transparent; }
+.actions { display: flex; gap: 12px; margin-top: 5px; }
+button { flex: 1; padding: 12px; border: none; border-radius: 8px; background: #2563eb; color: white; cursor: pointer; transition: .25s; }
+button:hover { background: #1d4ed8; transform: translateY(-2px); }
+.secondary { background: #64748b; }
+.secondary:hover { background: #475569; }
+@media (max-width: 700px) { .card { flex-direction: column; } .image-area, form { width: 100%; } }

@@ -1,0 +1,8 @@
+/* Question 8: Box-Sizing */
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+header { text-align: center; background: #0f172a; color: white; padding: 20px; }
+.comparison { display: flex; justify-content: center; align-items: flex-start; gap: 40px; padding: 60px 20px; flex-wrap: wrap; }
+.box { width: 300px; padding: 35px; border: 10px solid #334155; min-height: 220px; }
+.content-box { box-sizing: content-box; background: #fecaca; }
+.border-box { box-sizing: border-box; background: #bfdbfe; }
+@media (max-width: 700px) { .comparison { flex-direction: column; align-items: center; } }

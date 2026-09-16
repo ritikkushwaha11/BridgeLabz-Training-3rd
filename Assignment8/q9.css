@@ -1,0 +1,15 @@
+/* Question 9: Combined Effects */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; }
+header, footer { background: #1e293b; color: white; text-align: center; padding: 20px; }
+.effects { min-height: 70vh; display: flex; justify-content: space-evenly; align-items: center; gap: 20px; flex-wrap: wrap; padding: 30px; }
+button { border: none; color: white; padding: 18px 30px; border-radius: 10px; font-size: 17px; cursor: pointer; transition: transform .3s ease, background .3s ease, box-shadow .3s ease; box-shadow: 0 4px 10px rgba(0,0,0,.18); }
+.blue { background: #2563eb; }
+.green { background: #16a34a; }
+.purple { background: #7c3aed; }
+button:hover { transform: scale(1.1); box-shadow: 0 8px 18px rgba(0,0,0,.28); }
+.blue:hover { background: #1d4ed8; }
+.green:hover { background: #15803d; }
+.purple:hover { background: #6d28d9; }
+button:active { transform: scale(.96); }
+button:focus { outline: 3px solid #f59e0b; outline-offset: 4px; }

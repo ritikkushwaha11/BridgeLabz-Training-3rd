@@ -1,0 +1,11 @@
+/* Question 6: CSS Animations */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+header, footer { text-align: center; padding: 18px; background: #1f2937; color: white; }
+.animation-area { min-height: 72vh; display: flex; align-items: center; justify-content: center; gap: 70px; flex-wrap: wrap; text-align: center; }
+.moving-box { width: 70px; height: 70px; background: #2563eb; animation: move 2s ease-in-out infinite alternate; }
+.ball { width: 70px; height: 70px; border-radius: 50%; background: #dc2626; animation: bounce 1s ease-in-out .2s infinite alternate; }
+.color-text { animation: colors 2s ease-in-out infinite alternate; }
+@keyframes move { from { transform: translateX(-50px); } to { transform: translateX(50px); } }
+@keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-90px); } }
+@keyframes colors { 0% { color: #7c3aed; } 50% { color: #16a34a; } 100% { color: #ea580c; } }

@@ -1,0 +1,15 @@
+/* Q2: Responsive Web Design Layout */
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: Arial, sans-serif; color: #172033; }
+.site-header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 20px 6%; background: #14213d; color: white; }
+.logo { font-size: 1.5rem; font-weight: bold; color: white; text-decoration: none; }
+nav { display: flex; gap: 22px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; }
+nav a:hover { color: #fca311; }
+main { flex: 1; }
+.hero { text-align: center; padding: 55px 20px 35px; background: #eaf2ff; }
+.features { display: flex; gap: 22px; padding: 30px 6%; }
+.feature { flex: 1; padding: 28px; border-radius: 12px; background: #f5f7fa; box-shadow: 0 4px 14px #00000010; transition: transform .25s ease; }
+.feature:hover { transform: scale(1.04); }
+footer { text-align: center; padding: 22px; background: #14213d; color: white; }
+@media (max-width: 750px) { .site-header { align-items: flex-start; flex-direction: column; } .features { flex-direction: column; } }

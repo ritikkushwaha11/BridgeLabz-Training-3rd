@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q10 - Responsive Dashboard</title>
+  <link rel="stylesheet" href="responsive-dashboard.css">
+</head>
+<body>
+  <header class="dashboard-header"><h1>CSS Learning Dashboard</h1><p>Responsive design overview</p></header>
+  <div class="dashboard-layout">
+    <aside class="sidebar"><h2>Menu</h2><nav aria-label="Dashboard navigation"><a href="#filters">Filters</a><a href="#typography">Typography</a><a href="#media">Media Queries</a><a href="#cheatsheet">Cheat Sheet</a></nav></aside>
+    <main class="dashboard-content">
+      <article class="dashboard-card" id="filters"><h2>Filters</h2><p>Use CSS filter functions to change the appearance of images.</p><code>filter: grayscale(100%);</code></article>
+      <article class="dashboard-card" id="typography"><h2>Typography</h2><p>Use flexible font sizes for readable text across devices.</p><code>font-size: clamp(1rem, 2vw, 1.5rem);</code></article>
+      <article class="dashboard-card" id="media"><h2>Media Queries</h2><p>Apply styles based on viewport size and other conditions.</p><code>@media (max-width: 750px)</code></article>
+      <article class="dashboard-card" id="cheatsheet"><h2>Cheat Sheet Links</h2><p>Review Grid, Flexbox, breakpoints, and responsive images.</p><a href="responsive-cheat-sheet.html">Open CSS Cheat Sheet</a></article>
+    </main>
+  </div>
+</body>
+</html>

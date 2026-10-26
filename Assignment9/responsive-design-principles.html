@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q9 - Responsive Design Principles</title>
+  <link rel="stylesheet" href="responsive-design-principles.css">
+</head>
+<body>
+  <header><h1>Responsive Design Principles</h1><p>Three foundations of a responsive website.</p></header>
+  <main class="principles">
+    <article class="principle"><h2>Fluid Layouts</h2><p>Use flexible proportions instead of fixed page widths so content can expand or shrink.</p><pre><code>.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}</code></pre></article>
+    <article class="principle"><h2>Flexible Media</h2><p>Images and videos should fit inside their containers without overflowing.</p><pre><code>img, video {
+  max-width: 100%;
+  height: auto;
+}</code></pre></article>
+    <article class="principle"><h2>Breakpoints</h2><p>Use media queries to adjust the layout at useful screen widths.</p><pre><code>@media (max-width: 600px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}</code></pre></article>
+  </main>
+</body>
+</html>

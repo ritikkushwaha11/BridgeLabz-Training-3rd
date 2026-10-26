@@ -1,0 +1,11 @@
+/* Q6: Responsive CSS Cheat Sheet */
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px; font-family: Arial, sans-serif; background: #f8fafc; color: #1e293b; }
+header { text-align: center; margin-bottom: 30px; }
+.cheats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; max-width: 1050px; margin: auto; }
+.topic { padding: 24px; border: 1px solid #dbe4f0; border-radius: 12px; background: white; transition: transform .25s ease, box-shadow .25s ease, background .25s ease; }
+.topic:hover { transform: translateY(-4px); background: #edf5ff; box-shadow: 0 8px 20px #0f172a12; }
+.topic h2 { margin-top: 0; }
+.topic code { display: inline-block; max-width: 100%; padding: 8px; overflow-wrap: anywhere; border-radius: 6px; background: #e9eef7; color: #334b87; }
+@media (min-width: 1100px) { .cheats { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 700px) { body { padding: 18px; } .cheats { grid-template-columns: 1fr; } }

@@ -1,0 +1,16 @@
+/* Q7: Combined Responsive Web Demo */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #1d2940; background: #f4f7fc; animation: fadeIn .7s ease both; }
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 20px 6%; background: #172554; color: white; }
+.brand { font-size: 1.4rem; font-weight: bold; color: white; text-decoration: none; }
+nav { display: flex; gap: 18px; flex-wrap: wrap; } nav a { color: white; text-decoration: none; } nav a:hover { color: #93c5fd; }
+.demo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; padding: 28px 6%; }
+.demo-section { padding: 24px; background: white; border-radius: 14px; box-shadow: 0 5px 16px #0f172a0d; transition: transform .25s ease; }
+.demo-section:hover { transform: translateY(-4px); }
+.gallery-panel { grid-column: 1 / -1; }
+.mini-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.mini-gallery img { width: 100%; height: 190px; object-fit: cover; border-radius: 9px; transition: filter .3s ease; }
+.mini-gallery img:hover { filter: saturate(1.5); }
+footer { text-align: center; padding: 22px; color: white; background: #172554; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 700px) { .topbar { align-items: flex-start; flex-direction: column; } .demo-grid { grid-template-columns: 1fr; padding: 18px; } .gallery-panel { grid-column: auto; } .mini-gallery { grid-template-columns: 1fr; } .mini-gallery img { height: 220px; } }

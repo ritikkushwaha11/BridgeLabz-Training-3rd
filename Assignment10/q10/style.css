@@ -1,0 +1,10 @@
+/* Q10 - Travel Agency */
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .carousel img {
+    height: 300px;
+  }
+}

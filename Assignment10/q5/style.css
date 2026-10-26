@@ -1,0 +1,16 @@
+/* Q5 - Custom Bootstrap Theme */
+:root {
+  --bs-primary: #6f42c1;
+  --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+body {
+  font-family: var(--bs-font-sans-serif);
+}
+header {
+  background: var(--bs-primary);
+  color: white;
+}
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}

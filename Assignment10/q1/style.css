@@ -1,0 +1,7 @@
+/* Q1 - Company Landing Page */
+.hero {
+  background: #f1f5f9;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}

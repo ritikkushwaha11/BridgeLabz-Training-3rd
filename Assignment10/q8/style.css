@@ -1,0 +1,7 @@
+/* Q8 - Pricing Plans */
+.plan {
+  transition: 0.3s;
+}
+.plan:hover {
+  transform: translateY(-8px);
+}

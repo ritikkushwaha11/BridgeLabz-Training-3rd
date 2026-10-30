@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 420px; margin: 35px auto; padding: 0 15px; }
+    label { display: block; margin-top: 12px; }
+    input { width: 100%; box-sizing: border-box; padding: 9px; margin-top: 5px; border: 2px solid #aaa; border-radius: 5px; }
+    .valid { border-color: green; } .invalid { border-color: red; }
+    .error { color: red; font-size: 13px; min-height: 16px; }
+    button { margin-top: 15px; padding: 9px 16px; }
+    #result { color: green; }
+  </style>
+</head>
+<body>
+  <h2>Student Registration Form</h2>
+  <form id="studentForm" novalidate>
+    <label>Name <input id="name" type="text"></label><div class="error" id="nameError"></div>
+    <label>Email <input id="email" type="text"></label><div class="error" id="emailError"></div>
+    <label>Phone <input id="phone" type="text"></label><div class="error" id="phoneError"></div>
+    <label>Password <input id="password" type="password"></label><div class="error" id="passwordError"></div>
+    <button type="submit">Register</button>
+  </form>
+  <p id="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
